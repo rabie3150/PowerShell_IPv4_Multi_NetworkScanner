@@ -1,0 +1,35 @@
+{
+    "//": "Name of the output CSV file containing all computers information.",
+    "OutputFilePath": "./NetworkScanResults.csv",
+
+    "//": "Delimiter used in the output CSV file.",   
+    "delimiter": ";",
+
+    "//": "Number of ping requestes to send to a host", 
+    "//": "(default = 1)  1 = fast scan, 4 = slow & accurate scans",   
+    "PingCount": "1",
+
+    "//": "Dictionnaire des adresses IP.",
+    "Aals": [
+        {
+            "name": "site 1",
+            "firstAddress": "192.168.100.1",
+            "lastAddress": "192.168.100.254"
+        },
+        {
+            "name": "site 2",
+            "firstAddress": "192.168.31.1",
+            "lastAddress": "192.168.31.254"
+        },
+        {
+            "name": "site 3",
+            "firstAddress": "192.168.1.1",
+            "lastAddress": "192.168.1.254"
+        },
+        {
+            "name": "site 4",
+            "firstAddress": "192.168.2.1",
+            "lastAddress": "192.168.2.254"
+        }
+    ]
+}
